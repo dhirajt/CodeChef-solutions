@@ -1,7 +1,7 @@
 CFLAGS=-Wall -g
 
 c: 
-	gcc 42.c -o 42.out
+	gcc -std=c99 42.c -o 42.out
 
 java:
 	javac Main.java

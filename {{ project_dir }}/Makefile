@@ -1,7 +1,7 @@
 CFLAGS=-Wall -g
 
 c: 
-	gcc {{ project_name }}.c -o {{ project_name }}.out
+	gcc -std=c99 {{ project_name }}.c -o {{ project_name }}.out
 
 java:
 	javac Main.java

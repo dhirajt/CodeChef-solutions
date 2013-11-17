@@ -1,7 +1,7 @@
 CFLAGS=-Wall -g
 
 c: 
-	gcc atm.c -o atm.out
+	gcc -std=c99 atm.c -o atm.out
 
 java:
 	javac Main.java
