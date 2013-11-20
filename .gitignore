@@ -17,6 +17,8 @@
 *.out
 *.app
 
+# Dumped core files
+core
 
 *.py[cod]
 *.*~
